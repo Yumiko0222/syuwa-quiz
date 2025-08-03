@@ -43,7 +43,7 @@ if not st.session_state.answered:
             else:
                 st.session_state.answer_result = f"❌ ぶぶー！正解は「{correct}」だったよ！"
             st.session_state.answered = True
-            st.experimental_rerun()
+            st.rerun()
 
 # 結果画面
 else:

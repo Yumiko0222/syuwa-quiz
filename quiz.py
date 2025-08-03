@@ -22,6 +22,9 @@ if "current_question" not in st.session_state:
     random.shuffle(options)
     st.session_state.options = options  # 選択肢も固定！
 
+import os
+
+
 # 動画表示
 video_file = open(st.session_state.current_video, 'rb')
 video_bytes = video_file.read()

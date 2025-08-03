@@ -57,4 +57,4 @@ else:
         options = list(quiz_data.keys())
         random.shuffle(options)
         st.session_state.options = options
-        st.experimental_rerun()
+        st.rerun()

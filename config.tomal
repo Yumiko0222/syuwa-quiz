@@ -1,0 +1,9 @@
+    # .streamlit/config.toml
+
+[theme]
+base="light"
+primaryColor="#FFA726"  # オレンジ（メインボタンなど）
+backgroundColor="#FFF3E0"  # ページ全体の背景（クリーム系）
+secondaryBackgroundColor="#FFE0B2"  # セクションの背景（うすオレンジ）
+textColor="#5D4037"  # あたたかみのある茶色
+font="sans serif"

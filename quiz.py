@@ -5,10 +5,10 @@ st.title("手話クイズ٩( 'ω' )و")
 
 # 単語と動画の辞書
 quiz_data = {
-    "アイロン": "iron.mov",
-    "あさって": "asatte.mov",
-    "紫陽花": "ajisai.mov",
-    "あとで": "atode.mov",
+    "アイロン": "iron.MOV",
+    "あさって": "asatte.MOV",
+    "紫陽花": "ajisai.MOV",
+    "あとで": "atode.MOV",
 }
 
 # セッションステート初期化

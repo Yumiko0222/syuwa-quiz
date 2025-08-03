@@ -1,7 +1,21 @@
 import streamlit as st
 import random
 
-st.title("手話クイズ٩( 'ω' )و")
+
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <img src='https://raw.githubusercontent.com/Yumiko0222/syuwa-quiz/main/logo.png' width='200'/>
+        <h1 style='color: #FB8C00;'>手話単語クイズ</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
+#st.title("手話クイズ٩( 'ω' )و")
 
 # 単語と動画の辞書
 quiz_data = {
